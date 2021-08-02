@@ -39,3 +39,24 @@ brew "watch"
 brew "wget"
 brew "ykman"
 brew "yubikey-personalization"
+
+hostname = `hostname -s`.strip
+
+# King
+if hostname =~ /^BARLTM/
+    tap "astronomer/tap"
+    
+    brew "astronomer/tap/astro@0.25.0"
+    brew "atlantis"
+    brew "dnsmasq"
+    brew "drone-cli"
+    brew "helm"
+    brew "kubectx"
+    brew "kubernetes-cli"
+    brew "stern"
+    brew "terraform-docs"
+    brew "terragrunt"
+    brew "tflint"
+    brew "tfsec"
+    brew "velero"
+end
