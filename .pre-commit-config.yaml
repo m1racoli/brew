@@ -5,6 +5,4 @@ repos:
       - id: check-added-large-files
       - id: check-yaml
       - id: end-of-file-fixer
-      - id: file-contents-sorter
-        files: ^Brewfile$
       - id: trailing-whitespace
