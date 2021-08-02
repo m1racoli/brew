@@ -39,6 +39,7 @@ brew "watch"
 brew "wget"
 brew "ykman"
 brew "yubikey-personalization"
+brew "zsh"
 
 hostname = `hostname -s`.strip
 
