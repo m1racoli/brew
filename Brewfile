@@ -54,6 +54,7 @@ if hostname =~ /^BARLTM/
     brew "helm"
     brew "kubectx"
     brew "kubernetes-cli"
+    brew "kustomize"
     brew "stern"
     brew "terraform-docs"
     brew "terragrunt"
