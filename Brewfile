@@ -17,9 +17,11 @@ brew "isort"
 brew "jq"
 brew "kind"
 brew "leveldb"
+brew "libfido2"
 brew "mkcert"
 brew "mypy"
 brew "ncdu"
+brew "openssh"
 brew "parallel"
 brew "pinentry-mac"
 brew "pipx"
@@ -46,7 +48,7 @@ hostname = `hostname -s`.strip
 # King
 if hostname =~ /^BARLTM/
     tap "astronomer/tap"
-    
+
     brew "astronomer/tap/astro@0.25.0"
     brew "atlantis"
     brew "dnsmasq"
