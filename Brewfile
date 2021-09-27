@@ -55,7 +55,7 @@ hostname = `hostname -s`.strip
 if hostname =~ /^BARLTM/
     tap "astronomer/tap"
 
-    brew "astronomer/tap/astro@0.25.0"
+    brew "astronomer/tap/astro@0.25.5"
     brew "atlantis"
     brew "dnsmasq"
     brew "drone-cli"
