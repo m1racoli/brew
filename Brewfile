@@ -54,6 +54,14 @@ brew "zsh"
 
 hostname = `hostname -s`.strip
 
+if hostname =~ /^Cedriks-MacBook-Pro/
+    tap "armmbed/formulae"
+
+    brew "armmbed/formulae/arm-none-eabi-gcc"
+    brew "openocd"
+    brew "qemu"
+end
+
 # King
 if hostname =~ /^BARLTM/
     tap "astronomer/tap"
