@@ -68,6 +68,7 @@ if hostname =~ /^BARLTM/
 
     brew "astronomer/tap/astro@0.28.1"
     brew "atlantis"
+    brew "bash"
     brew "dnsmasq"
     brew "drone-cli"
     brew "helm"
