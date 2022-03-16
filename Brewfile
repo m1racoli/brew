@@ -66,7 +66,7 @@ end
 if hostname =~ /^BARLTM/
     tap "astronomer/tap"
 
-    brew "astronomer/tap/astro@0.27.3"
+    brew "astronomer/tap/astro@0.28.1"
     brew "atlantis"
     brew "dnsmasq"
     brew "drone-cli"
