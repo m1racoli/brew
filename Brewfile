@@ -69,9 +69,7 @@ end
 
 # King
 if hostname =~ /^BARLTM/
-    tap "astronomer/tap"
-
-    brew "astronomer/tap/astro@0.29.0"
+    brew "astro"
     brew "atlantis"
     brew "bash"
     brew "dnsmasq"
