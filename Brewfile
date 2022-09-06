@@ -2,6 +2,7 @@ tap "homebrew/cask"
 tap "homebrew/services"
 
 brew "autopep8"
+brew "bandit"
 brew "black"
 brew "commitizen"
 brew "coreutils"
