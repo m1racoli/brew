@@ -66,6 +66,7 @@ if hostname =~ /^Cedriks-MacBook-Pro/
     tap "armmbed/formulae"
 
     brew "armmbed/formulae/arm-none-eabi-gcc"
+    brew "gexiv2"
     brew "openocd"
     brew "qemu"
 end
