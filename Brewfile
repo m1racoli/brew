@@ -1,11 +1,13 @@
 tap "homebrew/cask"
 tap "homebrew/services"
+tap "derailed/k9s"
 
 brew "autopep8"
 brew "bandit"
 brew "black"
 brew "commitizen"
 brew "coreutils"
+brew "k9s"
 brew "dive"
 brew "exiftool"
 brew "flake8"
