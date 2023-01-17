@@ -2,6 +2,7 @@ tap "homebrew/cask"
 tap "homebrew/services"
 tap "derailed/k9s"
 
+brew "ansible"
 brew "autopep8"
 brew "bandit"
 brew "black"
