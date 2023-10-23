@@ -3,8 +3,6 @@ tap "homebrew/services"
 tap "derailed/k9s"
 tap "nats-io/nats-tools"
 
-brew "ansible-lint"
-brew "ansible"
 brew "autopep8"
 brew "bandit"
 brew "black"
