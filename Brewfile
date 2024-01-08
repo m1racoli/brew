@@ -1,4 +1,3 @@
-tap "homebrew/cask"
 tap "homebrew/services"
 tap "derailed/k9s"
 tap "nats-io/nats-tools"
